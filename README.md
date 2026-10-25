@@ -25,6 +25,14 @@ Wie sähe ein KI-System aus, das keine Freundlichkeit oder Empathie vorspielt, s
 
 Leitidee und Konzept. Es gibt noch keinen Code und kein Modell.
 
+## Aufgaben
+
+- [#1 Aufgabe 1 — Leitsatz „Human. Not Nice. Just Here.“ in prüfbare Gesprächsregeln übersetzen](https://github.com/intiequals1/humabot/issues/1)
+- [#2 Aufgabe 2 — Forschung zu künstlicher Empathie und sozio-affektivem Alignment sammeln](https://github.com/intiequals1/humabot/issues/2)
+- [#3 Aufgabe 3 — Vergleichsdialoge mit synthetischen Szenarien entwerfen](https://github.com/intiequals1/humabot/issues/3)
+
+Alle Aufgaben des Labors sammeln das [Projektboard](https://github.com/users/intiequals1/projects/6) und die [Aufgabenübersicht](https://github.com/intiequals1/digitalpath-site/issues/1). Ergebnisse kommen in den Ordner [`docs/`](docs/).
+
 ## Mitwirken
 
 Öffentliche Aufgaben stehen als [Issues](https://github.com/intiequals1/humabot/issues) bereit und erscheinen auch im [Projektboard des Labors](https://github.com/users/intiequals1/projects/6). Lies vorher [CONTRIBUTING.md](CONTRIBUTING.md). Ohne GitHub-Konto sind Beiträge per E-Mail an claudiu@dangulea.at möglich.
