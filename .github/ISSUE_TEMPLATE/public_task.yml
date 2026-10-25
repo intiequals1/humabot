@@ -1,0 +1,38 @@
+name: Öffentliche Mitwirkungsaufgabe
+description: Eine öffentliche Aufgabe für humaBot vorschlagen oder bearbeiten
+title: "[Aufgabe] "
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Issues sind öffentlich sichtbar. Bitte keine internen Links, vertraulichen Inhalte oder personenbezogenen Daten eintragen.
+  - type: textarea
+    id: task
+    attributes:
+      label: Aufgabenbeschreibung
+      description: Was soll erarbeitet, geprüft oder geändert werden?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Ergebnis / Abnahmekriterien
+      description: Woran ist erkennbar, dass die Aufgabe abgeschlossen ist?
+    validations:
+      required: true
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Datenschutz und Vertraulichkeit
+      options:
+        - label: Ich habe keine vertraulichen Inhalte oder personenbezogenen Daten eingefügt.
+          required: true
+  - type: dropdown
+    id: ai_use
+    attributes:
+      label: KI-Unterstützung
+      options:
+        - Keine generative KI verwendet
+        - Generative KI verwendet; Werkzeug und Umfang im Issue erläutert
+    validations:
+      required: true
